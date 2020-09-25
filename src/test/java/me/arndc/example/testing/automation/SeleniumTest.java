@@ -44,10 +44,10 @@ public class SeleniumTest {
     @Test
     public void test() throws InterruptedException {
         
-    	driver.get("http://192.168.4.10:8080");
+    	driver.get("http://192.168.2.10:8090");
     	
-    	//assertTrue(driver.getTitle().equalsIgnoreCase("Spring Demo Project"));
-        assertTrue(driver.getTitle().equalsIgnoreCase("Projet_tests_selenium [Jenkins]"));
+    	assertTrue(driver.getTitle().equalsIgnoreCase("Spring Demo Project"));
+        
     }
 
     @After
